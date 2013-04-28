@@ -1,0 +1,17 @@
+A quick test before interviewing with Hailo:
+
+	"Develop a program that, given a series of points (latitude,longitude,timestamp) for a cab journey from A-B, will disregard potentially erroneous points. Try to demonstrate a knowledge of Object Oriented concepts in your answer. Your answer must be returned as a single PHP file which can be run against the PHP 5.3 CLI. The attached dataset is provided as an example, with a png of the 'cleaned' route as a guide."
+
+Code:
+	clean_route.php
+
+Data:
+	points.csv		- source data
+	cleaned.png		- given example of the cleansed route
+	noise.csv		– points removed by the solution script 
+	signal.csv		– points from the original dataset with noise ones removed by the solution script
+
+	Same data on Google Fusion Tables (so can it can easily viewed on a map):
+		https://www.google.com/fusiontables/data?docid=1K3dZUCoi42261GwGbfVhL5y5H769FPoBwD3qrHE#map:id=3 – original dataset
+		https://www.google.com/fusiontables/DataSource?docid=1y_qlutjY_1LEdNDWDGujT1mKHZ-qfHJIDg6UHhQ#map:id=3 – removed points (noise)
+		https://www.google.com/fusiontables/DataSource?docid=1RiCn2LyVQLiQ8Xq8_9shT-MfpSvpkwoMiglyf3Y#map:id=3 – clean route
